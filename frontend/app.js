@@ -5,7 +5,7 @@ angular.module('miAppCRUD', [])
     vm.producto = {};
     vm.editando = false;
     
-    var apiUrl = 'https://localhost:7085/api/productos'; // Cambia el puerto según tu configuración
+    var apiUrl = 'http://localhost:5001/api/productos'; // Cambia el puerto según tu configuración
     
     // Cargar todos los productos
     vm.cargarProductos = function() {
